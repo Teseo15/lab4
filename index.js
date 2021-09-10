@@ -7,10 +7,10 @@ app.get('/clientes',c_cliente);
 app.get('/productos',c_producto);
 
 function c_inicio(req,res) {
-    res.send('<h1>Hola Express, soy Jassyra Espinoza</h1>');
+    res.send('<h1>Hola Express, soy Brayan Blas</h1>');
 }
 function c_cliente(req,res) {
-    res.send('<h1>CLIENTES</h1><ul><li>Kiara Pinedo</li><li>Sandra Alcantara</li><li>Danna Vila</li></ul>');
+    res.send('<h1>CLIENTES</h1><ul><li>Mario Antonio</li><li>Alfonso Ruesta</li><li>Angel Avila</li></ul>');
 }
 function c_producto(req,res) {
     res.send('<h1>PRODUCTOS</h1><ul><li>Gorras</li><li>Polos</li><li>Zapatillas</li></ul>');
